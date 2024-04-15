@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+/* скролл */
+body::-webkit-scrollbar {
+    width: 3px;               
+  }
+  body::-webkit-scrollbar-track {
+    background: black;      
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 3px;       
+  }
+/* скролл */
+.yy{
+    position: fixed;
+    width: 50px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    z-index: 100;
+    
+}
+.yy.w{
+    background-color: rgba(255, 192, 203, 0.901);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+}
+.yy ul{
+    position: relative;
+    top:    50px;
+    z-index: 1;
+}
+.gg{
+    position: absolute;
+    color: white;
+    top: 88px;
+    font-size: 11px;
+    transition: all 1s ease;
+    opacity: 0.8;
+}
+.gg2{
+    position: absolute;
+    color: white;
+    top: 185px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+.gg3{
+    position: absolute;
+    color: white;
+    top: 285px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+.gg4{
+    position: absolute;
+    color: white;
+    top: 380px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+.gg5{
+    position: absolute;
+    color: white;
+    top: 475px;
+    font-size: 11px;
+    opacity: 0.8;
+}
+.gg.z{
+    color: black;
+}
+.gg2.z{
+    color: black;
+}
+.gg3.z{
+    color: black;
+}
+.gg4.z{
+    color: black;
+}
+.gg5.z{
+    color: black;
+}
+ul li span{
+    cursor: pointer;
+}
+.tt.i{
+ position: relative;
+ left: 28px; 
+ padding: 5px; 
+ transition: all 1s ease;
+}
+.tt2{
+    position: relative;
+    left: 0px;
+    transition: all 1s ease;
+}
+.tt3{
+    position: relative;
+    left: 0px;
+    transition: all 1s ease;
+}
+.tt4{
+    position: relative;
+    left: 0px;
+    transition: all 1s ease;
+}
+.tt5{
+    position: relative;
+    left: 0px;
+    transition: all 1s ease;
+}
+.tt2.i{
+    position: relative;
+left: 28px;
+cursor: pointer;
+ padding: 5px;
+ transition: all 1s ease;
+}
+.tt3.i{
+    position: relative;
+left: 28px;
+cursor: pointer;
+ padding: 5px;
+ transition: all 1s ease;
+}
+.tt4.i{
+    position: relative;
+left: 28px;
+cursor: pointer;
+ padding: 5px;
+ transition: all 1s ease;
+}
+.tt5.i{
+    position: relative;
+left: 28px;
+cursor: pointer;
+ padding: 5px;
+ transition: all 1s ease;
+}
+.tt{
+    position: relative;
+    left: 0;
+    transition: all 1s ease;
+}
+.indi{
+    top: 39px;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.97);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8); /* Прозрачная тень с плавным переходом */
+    border-radius: 50%; /* Округление углов границы */
+    left: 30px;
+    transition: all 1s ease;
+    overflow: hidden;
+    
+}
+.indi.r{
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.9);
+}
+.indi.class2{
+    top: 134px;
+    transition: all 1s ease;
+}
+.indi.class3{
+    top: 230px;
+    transition: all 1s ease;
+}
+.indi.class4{
+    top: 327px;
+    transition: all 1s ease;
+}
+.indi.class5{
+    top: 421px;
+    transition: all 1s ease;
+}
+
+.kk{
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1) grayscale(1);
+}
+.kk.k{
+    filter: brightness(0) invert(0) grayscale(0);
+}
+.burger{
+    position: absolute;
+    top: 95%;
+}
+.tumb{
+    background-color: white;
+    position: absolute;
+    border-radius: 25px;
+    top: 86%;
+    width: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.ge{
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius:50% ;
+    background-color: black;
+    display: block;
+    transition: all 1s ease;
+}
+.ge.p{
+    position: absolute;
+    top: 42px;
+    width: 16px;
+    height: 16px;
+    border-radius:50% ;
+    background-color: rgba(200, 150, 203, 0.801);
+    display: block;
+    transition: all 1s ease;
+}
+.wave {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 32px;
+    animation: wave 6s infinite linear;
+    transition: all 1s ease;
+  }
+  .wave.cs2{
+    top: 26px;
+    transition: all 1s ease;
+  }
+  .wave.cs3{
+    top: 21px;
+    transition: all 1s ease;
+  }
+  .wave.cs4{
+    top: 16px;
+    transition: all 1s ease;
+  }
+  .wave.cs5{
+    top: 8px;
+    transition: all 1s ease;
+  }
+  .wave:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    right: 0;
+    background-repeat: repeat;
+    height: 40px;
+    background-size: 20px 100px;
+    background-image: radial-gradient(circle at 10px -3px, transparent 12px, #eb0aff7a 13px);
+  }
+  @keyframes wave{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+  }
+  .test{
+    width: 100px;
+    height: 3000px;
+    background: url(133.jpg);
+  }
+ .rovno{
+    width: 100%;
+    
+ }
+ .grid{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .grid div{
+    position: relative;
+    width: 100%;
+ }
+ .grid div img{
+    position: relative;
+    width: 100%;
+ }
+ video{
+    width: 100%;
+ }
+  .nazvanie{
+    position: absolute;
+    top: 25px;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+   
+  }
